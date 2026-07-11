@@ -40,3 +40,6 @@ Payment Gateway Integration
 Dark Mode
 Backend Integration
 Booking Confirmation Email
+
+ https://m-irfanashirin.github.io/zynova-restaurant-website/
+ 
