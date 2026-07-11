@@ -21,32 +21,6 @@ JavaScript (ES6)
 Google Fonts
 CSS Animations
 Responsive Web Design
-📁 Project Structure
-ZYNOVA/
-│
-├── index.html
-├── about.html
-├── menu.html
-├── gallery.html
-├── contact.html
-│
-├── css/
-│   ├── style.css
-│   ├── responsive.css
-│   └── animations.css
-│
-├── js/
-│   ├── script.js
-│   ├── animations.js
-│   └── particles.js
-│   
-├── images/
-│ ├── hero/
-│ ├── gallery/
-│ ├── menu/
-│ ├── logo/
-│ └── readme/
-│ └── README.md
 
 Responsive Design
 
