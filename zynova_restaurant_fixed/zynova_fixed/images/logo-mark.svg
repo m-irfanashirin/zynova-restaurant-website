@@ -1,0 +1,31 @@
+<svg width="120" height="120" viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Marigold & Ember logo mark">
+  <defs>
+    <linearGradient id="flameGrad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#A83E2C"/>
+      <stop offset="55%" stop-color="#D9A441"/>
+      <stop offset="100%" stop-color="#F1D9A0"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="60" cy="60" r="59" fill="#211E1B"/>
+  <circle cx="60" cy="60" r="59" fill="none" stroke="#D9A441" stroke-width="1" opacity="0.5"/>
+
+  <!-- marigold petal ring -->
+  <g fill="#D9A441">
+    <ellipse cx="60" cy="27" rx="8.5" ry="19" transform="rotate(0 60 60)"/>
+    <ellipse cx="60" cy="27" rx="8.5" ry="19" transform="rotate(45 60 60)"/>
+    <ellipse cx="60" cy="27" rx="8.5" ry="19" transform="rotate(90 60 60)"/>
+    <ellipse cx="60" cy="27" rx="8.5" ry="19" transform="rotate(135 60 60)"/>
+    <ellipse cx="60" cy="27" rx="8.5" ry="19" transform="rotate(180 60 60)"/>
+    <ellipse cx="60" cy="27" rx="8.5" ry="19" transform="rotate(225 60 60)"/>
+    <ellipse cx="60" cy="27" rx="8.5" ry="19" transform="rotate(270 60 60)"/>
+    <ellipse cx="60" cy="27" rx="8.5" ry="19" transform="rotate(315 60 60)"/>
+  </g>
+  <circle cx="60" cy="60" r="14" fill="#211E1B"/>
+
+  <!-- ember flame rising from the flower's centre -->
+  <path d="M60,89 C47,89 38,77 38,64 C38,51 49,45 51,32 C52,25 49,18 45,12
+           C56,16 67,25 67,38 C67,45 63,49 63,55 C70,51 74,42 72,31
+           C81,40 85,51 83,62 C83,77 74,89 60,89 Z"
+        fill="url(#flameGrad)"/>
+</svg>

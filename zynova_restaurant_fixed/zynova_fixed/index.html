@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Z Y N O V A — Modern Indian Kitchen, Chennai</title>
+<meta name="description" content="Z Y N O V A is a modern Indian kitchen serving slow-cooked classics, Chettinad specials and open-fire favourites in Chennai, Tamil Nadu.">
+<link rel="icon" href="images/logo-mark.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-motif="home">
+
+<!-- Preloader -->
+<div class="preloader" id="preloader">
+  <div class="preloader-orbs">
+    <span></span><span></span><span></span>
+  </div>
+  <div class="preloader-content">
+    <div class="preloader-logo">
+      <div class="logo-text">Z Y N O V A</div>
+    </div>
+    <p style="font-family:var(--mono);font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--text-3);margin-top:10px;">Modern Indian Kitchen</p>
+    <div class="preloader-bar"><div class="bar-progress"></div></div>
+  </div>
+</div>
+
+<!-- Ember canvas background -->
+<canvas id="ember-canvas"></canvas>
+
+<!-- Cursor -->
+<div class="cursor-dot"></div>
+<div class="cursor-ring"><span class="cursor-lbl"></span></div>
+
+<header class="site-header">
+  <div class="wrap">
+    <a href="index.html" class="logo">
+      <span class="logo-mark"><img src="images/logo.png" alt="Z Y N O V A logo mark"></span>
+      <span class="logo-text">Z Y N O V A<span>Modern Indian Kitchen</span></span>
+    </a>
+    <nav class="primary">
+      <ul>
+        <li><a href="index.html" aria-current="page" data-magnetic>Home</a></li>
+        <li><a href="about.html" data-magnetic>About</a></li>
+        <li><a href="menu.html" data-magnetic>Menu</a></li>
+        <li><a href="gallery.html" data-magnetic>Gallery</a></li>
+        <li><a href="offers.html" data-magnetic>Offers</a></li>
+        <li><a href="contact.html" data-magnetic>Contact</a></li>
+      </ul>
+    </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" data-magnetic>&#9776;</button>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="hero-orb hero-orb-1"></div>
+  <div class="hero-orb hero-orb-2"></div>
+  <div class="hero-orb hero-orb-3"></div>
+  <div class="hero-bg-video" style="position:absolute;inset:0;pointer-events:none;opacity:.08;overflow:hidden;">
+    <video autoplay muted loop playsinline aria-hidden="true" style="width:100%;height:100%;object-fit:cover;">
+      <source src="images/vdo.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="wrap">
+    <div class="hero-content">
+      <span class="eyebrow">Open daily · 12pm – 11pm</span>
+      <span class="tamil-tag">வணக்கம்! சென்னையின் சுவை அனுபவம்</span>
+      <h1>Slow spice.<br><em>Open fire.</em><br>No shortcuts.</h1>
+      <p class="hero-sub">We grind our own masalas every morning and cook over charcoal, the way our grandmothers insisted was the only way. From Chettinad classics to tandoori favourites — come hungry, everything here takes time on purpose.</p>
+      <div class="hero-actions">
+        <a href="menu.html" class="btn btn-solid" data-magnetic>View the menu</a>
+        <a href="contact.html" class="btn btn-outline" data-magnetic>Reserve a table</a>
+      </div>
+    </div>
+    <div class="hero-figure">
+      <div class="hero-figure-inner">
+        <img src="https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=1000&auto=format&fit=crop" alt="Zynova Tandoori Platter, mixed grill fresh off the fire">
+      </div>
+      <div class="video-caption">Fresh off the grill</div>
+      <div class="hero-tag">Chef's pick — Zynova Tandoori Platter</div>
+    </div>
+  </div>
+</section>
+
+<div class="kolam-rule" aria-hidden="true"></div>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Welcome</span>
+      <h2>A kitchen built around one fire and one grinding stone.</h2>
+      <p>Z Y N O V A opened with a simple rule: nothing goes out that wasn't started from raw ingredients that morning. That means whole spices toasted and ground daily, bread proofed in-house, and every curry base simmered for hours before service even begins.</p>
+    </div>
+    <div class="stat-row">
+      <div class="stat"><b data-count="14">0</b><span>Signature dishes</span></div>
+      <div class="stat"><b data-count="6" data-suffix="hrs">0</b><span>Avg. curry simmer time</span></div>
+      <div class="stat"><b data-count="4.8" data-suffix="★">0</b><span>Average guest rating</span></div>
+      <div class="stat"><b data-count="2019">0</b><span>Est. in Chennai</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="accent">
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Straight from Tamil Nadu</span>
+      <h2>Chettinad &amp; coastal specials, made properly</h2>
+      <p>Alongside our tandoori classics, we run a full Tamil Nadu regional line — dry-roasted Chettinad mutton, Kerala-style fish curry, filter coffee and more. Ask for it "naatu style" and we'll turn up the heat.</p>
+    </div>
+    <div class="grid grid-3">
+      <div class="chit chit-img">
+        <div class="chit-photo"><img src="https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?q=80&w=700&auto=format&fit=crop" alt="Mutton Chukka"></div>
+        <span class="eyebrow">Chettinad</span>
+        <h3>Mutton Chukka</h3>
+        <p class="desc">Slow-cooked mutton, dry-roasted in Chettinad spice — a Tamil Nadu classic done our way.</p>
+      </div>
+      <div class="chit chit-img">
+        <div class="chit-photo"><img src="https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?q=80&w=700&auto=format&fit=crop" alt="Kerala Fish Curry"></div>
+        <span class="eyebrow">Coastal</span>
+        <h3>Kerala Fish Curry</h3>
+        <p class="desc">Seer fish simmered in coconut milk, raw mango and curry leaf.</p>
+      </div>
+      <div class="chit chit-img">
+        <div class="chit-photo"><img src="https://images.unsplash.com/photo-1621939514649-280e2ee25f60?q=80&w=700&auto=format&fit=crop" alt="South Indian Filter Coffee"></div>
+        <span class="eyebrow">Filter kaapi</span>
+        <h3>South Indian Filter Coffee</h3>
+        <p class="desc">Decoction brewed slow, served the traditional way — dabara and tumbler.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">What guests are saying</span>
+      <h2>Reviews from the tables around you</h2>
+    </div>
+    <div class="review-grid">
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>The mutton chukka tasted like it had been on the fire all day — because apparently it had. Best plate I've had in Chennai this year.</p>
+        <div class="who-row">
+          <div class="review-avatar">P</div>
+          <div class="who"><b>Priya R.</b><span>Google Reviews</span></div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★☆</div>
+        <p>Loved that the menu tells you spice levels honestly. Nothing was a surprise, everything was fresh, service was warm without hovering.</p>
+        <div class="who-row">
+          <div class="review-avatar">A</div>
+          <div class="who"><b>Arjun K.</b><span>Zomato</span></div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★☆</div>
+        <p>Went for the weekend combo offer and it easily fed three of us. The kulcha alone is worth the trip back.</p>
+        <div class="who-row">
+          <div class="review-avatar">S</div>
+          <div class="who"><b>Sneha M.</b><span>Google Reviews</span></div>
+        </div>
+      </div>
+      <div class="review-card">
+        <div class="stars">★★★★★</div>
+        <p>Quiet, unhurried, and the open kitchen smell hits you the second you walk in. Our new regular spot.</p>
+        <div class="who-row">
+          <div class="review-avatar">F</div>
+          <div class="who"><b>Farhan S.</b><span>Zomato</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap grid grid-3">
+    <div class="chit chit-img">
+      <div class="chit-photo"><img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=700&auto=format&fit=crop" alt="Reserve a table"></div>
+      <span class="eyebrow">01 — Reserve</span>
+      <h3>Book a table</h3>
+      <p class="desc">Walk-ins welcome, but weekends fill fast — reserve ahead through our contact page or WhatsApp.</p>
+    </div>
+    <div class="chit chit-img">
+      <div class="chit-photo"><img src="https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=700&auto=format&fit=crop" alt="Browse the menu"></div>
+      <span class="eyebrow">02 — Explore</span>
+      <h3>Browse the menu</h3>
+      <p class="desc">Starters, basics, Tamil Nadu specials and desserts, with clear pricing and spice markers.</p>
+    </div>
+    <div class="chit chit-img">
+      <div class="chit-photo"><img src="https://images.unsplash.com/photo-1680993032090-1ef7ea9b51e5?q=80&w=700&auto=format&fit=crop" alt="Today's offer"></div>
+      <span class="eyebrow">03 — Save</span>
+      <h3>Check today's offer</h3>
+      <p class="desc">A new daily special, plus weekly and combo deals worth planning around.</p>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div>
+      <h4>Z Y N O V A</h4>
+      <p style="color:#cbb587; max-width:32ch;">A modern Indian kitchen — open fire, slow spice, honest pricing.</p>
+    </div>
+    <div>
+      <h4>Explore</h4>
+      <a href="about.html">About us</a>
+      <a href="menu.html">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="offers.html">Offers</a>
+    </div>
+    <div>
+      <h4>Visit</h4>
+      <a href="contact.html">Contact &amp; map</a>
+      <a href="tel:+919788812525">+91 97888 12525</a>
+      <a href="mailto:hello@zynova.in">hello@zynova.in</a>
+    </div>
+  </div>
+  <div class="wrap foot-bottom">
+    <span>© 2026 Z Y N O V A. All rights reserved.</span>
+    <span>12 Marina Lane, Chennai, Tamil Nadu</span>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
